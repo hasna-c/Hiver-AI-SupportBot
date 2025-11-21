@@ -6,24 +6,30 @@ A comprehensive implementation of AI-powered customer support tools demonstratin
 ##  Project Overview
 
 This project implements three core components:
+**Demo Screenshot:**  
+![Home Page Demo](demo/home.png)
 
 ### Part A: Email Tagging Mini-System
 - **Customer-specific classification** with strict isolation
 - **LLM-based tagging** using Groq's Llama 3.3 70B model
 - **Pattern & anti-pattern learning** for accuracy improvement
 - Customer tags never leak across different customers
+  ![Part A Demo](demo/parta.png)
 
 ### Part B: Sentiment Analysis Prompt Evaluation
 - **Dual prompt versions** (v1 basic, v2 improved)
 - **Confidence scoring** with detailed reasoning
 - **Batch testing** capability for systematic evaluation
 - Contextual sentiment understanding for support emails
+  ![Part B Demo](demo/partb.png)
 
 ### Part C: Mini-RAG for Knowledge Base
 - **Semantic search** using sentence-transformers embeddings
 - **Top-3 article retrieval** with similarity scores
 - **AI-generated answers** synthesizing multiple sources
 - Confidence-scored responses with debugging insights
+  ![Part C Demo](demo/partc.png)
+
 
 ##  Technology Stack
 
