@@ -1,4 +1,4 @@
-# Hiver AI Intern Evaluation Assignment
+# Hiver AI SupportBot
 
 A comprehensive implementation of AI-powered customer support tools demonstrating email tagging, sentiment analysis, and knowledge base RAG capabilities.
 
