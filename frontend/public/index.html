@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Hiver AI App" />
+    
+    <!-- Favicon placeholder -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Page Title -->
+    <title>Hiver AI | Fullstack App</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Optional Tailwind configuration
+        window.tailwind = window.tailwind || {};
+        tailwind.config = {
+            corePlugins: { preflight: true }, // Enable Tailwind base styles
+        };
+    </script>
+
+    <!-- Fonts (optional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Optional: Add meta tags for SEO/social sharing -->
+    <meta property="og:title" content="Hiver AI App" />
+    <meta property="og:description" content="Fullstack application powered by Hiver AI" />
+    <meta property="og:type" content="website" />
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+    <!-- Root element for React -->
+    <div id="root"></div>
+
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+
+    <!-- Optional analytics or custom scripts can go here -->
+    <script>
+        // Example: simple page load log
+        console.log("Hiver AI App loaded");
+    </script>
+
+    <!-- Notes:
+        1. React app will mount into #root.
+        2. Tailwind classes can be used throughout your React components.
+        3. Replace favicon and meta content as needed.
+    -->
+</body>
+</html>
+
