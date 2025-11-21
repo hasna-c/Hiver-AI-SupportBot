@@ -6,8 +6,10 @@ A comprehensive implementation of AI-powered customer support tools demonstratin
 ##  Project Overview
 
 This project implements three core components:
-**Demo Screenshot:**  
+
+ 
 ![Home Page Demo](demo/home.png)
+
 
 ### Part A: Email Tagging Mini-System
 - **Customer-specific classification** with strict isolation
